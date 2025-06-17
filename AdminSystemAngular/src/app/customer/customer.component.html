@@ -1,0 +1,26 @@
+<div *ngIf="customer != null">   
+    <div>
+      Name: {{customer.name}}
+    </div>
+    <div>
+      Email: {{customer.email}}
+    </div>
+    <div>
+      Creation Date: {{customer.creation}}
+    </div>
+  
+<h3>Orders</h3>
+<div *ngIf="orders.length">
+  <ul>
+    <li *ngFor="let order of orders">
+      <span>{{ order.orderId }} - {{ order.orderDate | date }} - {{ order.orderTotal | currency }}</span>
+      <a [routerLink]="['/order', order.orderId]">View Details</a>
+    </li>
+  </ul>
+</div>
+  
+  <!-- If customer is not found, show message -->
+  <div *ngIf="customer == null">
+    <p>No customer information available</p>
+  </div>
+  

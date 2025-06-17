@@ -1,0 +1,22 @@
+
+<div class="ebook-grid">
+    <app-ebook *ngFor="let ebook of ebooks" [ebook]="ebook"></app-ebook>
+  </div>
+
+
+<!--
+<div class="ebook-grid">
+    <div *ngFor="let ebook of ebooks">
+      <div class="ebook-card">
+        <img class="ebook-cover" [src]="ebook.image_url" alt="{{ ebook.title }}" />
+        <h3 class="ebook-title">{{ ebook.title }}</h3>
+        <p class="ebook-author">{{ ebook.author }}</p>
+        <p class="ebook-year">{{ ebook.publicationYear }}</p>
+        <p class="ebook-price">${{ ebook.price }}</p>
+  
+         Add the 'Buy' button to navigate to the buy page 
+        <button [routerLink]="['/buy-ebook', ebook.ebookId]">Buy</button>
+      </div>
+    </div>
+  </div>
+-->

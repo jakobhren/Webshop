@@ -1,0 +1,55 @@
+/*
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .category-buttons button {
+    padding: 0.5rem 1rem;
+    background-color: #e6ccb2;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .category-buttons button:hover {
+    background-color: #d6b48a;
+  }
+  */
+
+  .category-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  .category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .category-buttons button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #d4a373;
+    color: white;
+    cursor: pointer;
+    
+  }
+
+  .ebook-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    background-color: rgb(226, 226, 202);
+  }
+  

@@ -1,0 +1,12 @@
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\bin\Debug\net8.0\AdminSystem.Model.deps.json
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\bin\Debug\net8.0\AdminSystem.Model.dll
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\bin\Debug\net8.0\AdminSystem.Model.pdb
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\AdminSystem.Model.csproj.AssemblyReference.cache
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\AdminSystem.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\AdminSystem.Model.AssemblyInfoInputs.cache
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\AdminSystem.Model.AssemblyInfo.cs
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\AdminSystem.Model.csproj.CoreCompileInputs.cache
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\AdminSystem.Model.dll
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\refint\AdminSystem.Model.dll
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\AdminSystem.Model.pdb
+C:\Users\tiakh\Desktop\CBS_2\webshop\Backend\AdminSystem.Model\obj\Debug\net8.0\ref\AdminSystem.Model.dll

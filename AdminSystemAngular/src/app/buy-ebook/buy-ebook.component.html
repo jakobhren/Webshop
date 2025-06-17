@@ -1,0 +1,54 @@
+
+<div class="ebook-details">
+  <img [src]="ebook.image_url" alt="{{ ebook.title }}" style="width: 200px; height: auto; margin: 1rem 0;" />
+  <div>Title: {{ ebook.title }}</div>
+  <div>Author: {{ ebook.author }}</div>
+  <div>Published: {{ ebook.publicationYear }}</div>
+  <div>Price: €{{ ebook.price }}</div>
+
+ 
+
+  <button (click)="purchase()">Purchase</button>
+
+  <div *ngIf="purchaseSuccess" class="purchase-success">
+    <p>Thank you for your purchase!</p>
+    <button [routerLink]="['/profile', this.email]">Download Your Ebook</button>
+  </div>
+</div>
+
+
+
+<!--
+<div *ngIf="ebook" class="ebook-card">
+<img class="ebook-cover" [src]="ebook?.image_url" alt="{{ ebook?.title }}" />
+<div class="ebook-title">{{ ebook?.title }}</div>
+<div class="ebook-author">{{ ebook?.author }}</div>
+  <div class="ebook-year">Published: {{ ebook?.publicationYear}}</div>
+  <div class="ebook-price">€{{ ebook?.price }}</div>
+
+  <button (click)="purchase()">Purchase</button>
+
+  <div *ngIf="purchaseSuccess">
+    <p>Thank you for your purchase!</p>
+    <button [routerLink]="['/order', ebook.id]">Download Your Ebook</button>
+  </div>
+</div>
+
+
+<h2>{{ ebook.title }}</h2>
+<p>{{ ebook.author }}</p>
+<p>Price: ${{ ebook.price }}</p>
+<button [routerLink]="['/buy-ebook', ebook.id]">Buy</button>
+
+
+<h2>Buy {{ ebook?.title }}</h2>
+<p>Price: ${{ ebook?.price }}</p>
+
+
+<button (click)="purchase()">Purchase</button>
+
+<div *ngIf="purchaseSuccess">
+  <p>Thank you for your purchase!</p>
+  <button [routerLink]="['/order', ebook.id]">Download Your Ebook</button>
+</div>
+-->

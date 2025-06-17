@@ -1,0 +1,32 @@
+
+
+    <div>
+        id: <span>b{{customer.customerid}}</span>
+    </div>
+    <div>
+    Name: <input type="text" [(ngModel)]="customer.name" name="name" required #name="ngModel"/>
+    @if (name.invalid){
+        <span>Name is required</span>
+    }
+</div>
+  <div>
+    Email: <input type="email" [(ngModel)]="customer.email" name="email" required #email="ngModel"/>
+    @if (email.invalid){
+        <span>Email is invalid</span>
+    }
+</div>
+  <div>
+    Password: <input type="password" [(ngModel)]="customer.password" name="password"required #password="ngModel"/>
+    @if (password.invalid){
+        <span>Password is invalid</span>
+    }
+  </div>
+  <button (click)="updateCustomer()">Update</button>
+  
+  @if (name.invalid || email.invalid || password.invalid) {
+    <div>Error in data</div>
+    }
+    @else {
+    <button (click)="updateCustomer()">Update</button>
+    }
+

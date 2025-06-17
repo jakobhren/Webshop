@@ -1,0 +1,21 @@
+@if (mode == 0) {
+    <div>
+        <b>Order Total:</b><span>{{order?.orderTotal}}</span>
+    </div>
+    <div>
+        <b>Order Date:</b><span>{{order?.orderDate}}</span>
+    </div>
+}
+@else {
+    <table>
+        <tr>
+            <td>Order Total</td>
+            <td>{{order?.orderTotal}}</td>
+        </tr>
+        <tr>
+            <td>Order Date</td>
+            <td>{{order?.orderDate}}</td>
+        </tr>
+    </table>
+}
+div><button (click)="deleteOrder()">Delete</button>

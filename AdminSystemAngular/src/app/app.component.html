@@ -1,0 +1,66 @@
+<router-outlet>
+<mat-toolbar color="primary" class="custome-toolbar">
+
+  <span class="toolbar-title">BookNook</span>
+
+
+  <button  mat-button routerLink="/ebooks"  class="toolbar-button">Ebooks</button>
+  <button mat-button routerLink="/categories" class="toolbar-button">Categories</button>
+  
+  <button mat-button [matMenuTriggerFor]="profileMenu" class="toolbar-button">Profile</button>
+</mat-toolbar>
+
+
+<mat-menu #profileMenu="matMenu">
+  <button  mat-menu-item routerLink="/sign-up">Sign-up</button>
+  <button  mat-menu-item routerLink="/login">Log-in</button>
+</mat-menu>
+
+
+
+
+<router-outlet />
+<!--
+
+*ngIf="isAuthenticated" 
+*ngIf="!isAuthenticated"
+
+
+<app-customer></app-customer>
+
+<app-ebook></app-ebook>
+
+<app-ebook-list></app-ebook-list>
+
+<app-order></app-order>
+
+<app-order-item></app-order-item>
+
+<app-category></app-category>
+
+<app-category-list></app-category-list>
+
+<app-ebook-list></app-ebook-list>
+
+
+<app-order-list></app-order-list>
+
+<ul>
+  <li>
+  <a routerLink="/customer">Customer</a>
+  </li>
+</ul>
+
+<ul>
+  <li>
+  <a routerLink="/ebooks">Ebook list</a>
+  </li>
+</ul>
+
+<ul>
+  <li>
+  <a routerLink="/categories">Category list</a>
+  </li>
+</ul>
+
+-->

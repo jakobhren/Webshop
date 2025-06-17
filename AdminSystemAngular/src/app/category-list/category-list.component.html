@@ -1,0 +1,19 @@
+<div class="category-buttons-container">
+<div class="category-buttons">
+    <button *ngFor="let category of categories" 
+      (click)="filterByCategory(category.categoryId)">
+      {{ category.categoryName }}
+    </button>
+  </div>
+</div>
+
+<app-ebook-list [ebooks]="filteredEbooks"></app-ebook-list>
+
+<!---
+  <div class="ebook-grid" *ngIf="filteredEbooks.length > 0">
+    <div *ngFor="let e of filteredEbooks">
+  <app-ebook [ebook]="e"></app-ebook>
+</div>
+</div>
+-->
+

@@ -1,0 +1,26 @@
+@if (mode == 0) {
+    <div>
+    <b>id:</b><span>{{category?.categoryId}}</span>
+    </div>
+    <div>
+    <b>Title:</b><span>{{category?.categoryName}}</span>
+    </div>
+    
+    
+    }
+    @else {
+
+    <table>
+        <tr>
+        <td>Id</td>
+        <td>{{category?.categoryId}}</td>
+        </tr>
+        <tr>
+        <td>Title</td>
+        <td>{{category?.categoryName}}</td>
+        </tr>
+        
+
+        </table>
+
+    }

@@ -1,0 +1,21 @@
+@if (mode == 0) {
+    <div>
+        <b>Order ID:</b><span>{{orderItem?.orderId}}</span>
+    </div>
+    <div>
+        <b>Ebook ID:</b><span>{{orderItem?.ebookId}}</span>
+    </div>
+}
+@else {
+    <table>
+        <tr>
+            <td>Order ID</td>
+            <td>{{orderItem?.orderId}}</td>
+        </tr>
+        <tr>
+            <td>Ebook ID</td>
+            <td>{{orderItem?.ebookId}}</td>
+        </tr>
+    </table>
+}
+

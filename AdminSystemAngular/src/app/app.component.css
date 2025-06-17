@@ -1,0 +1,28 @@
+
+.mat-toolbar {
+    color: white;
+    background-color: black;
+    height: 80px; 
+    line-height: 80px; 
+    }
+
+.custom-toolbar {
+        
+        padding: 0 16px;
+
+      }
+      
+.toolbar-title {
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      
+.toolbar-button {
+        font-size: 0.9rem;
+        margin-left: 4px;
+        padding: 4px 12px;
+        min-width: 28px;
+        font-weight: bold;
+      }
+    

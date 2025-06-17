@@ -1,0 +1,31 @@
+<!--
+   
+    <div>
+    <b>Title:</b><span>{{ebook?.title}}</span>
+    </div>
+    <div>
+    <b>Author:</b><span>{{ebook?.author}}</span>
+    </div>
+    <div>
+        <b>Published:</b><span>{{ebook?.publicationYear}}</span>
+    </div>
+    <img 
+        [src]="ebook?.image_url" 
+        alt="Cover Page"
+        style="width: 150px; height: auto;"
+    />
+    <div>
+    <b>Price:</b><span>{{ebook?.price}}</span>
+    </div>
+ -->
+
+    
+    <div class="ebook-card">
+        <img class="ebook-cover" [src]="ebook?.image_url" alt="{{ ebook?.title }}" />
+        <div class="ebook-title">{{ ebook?.title }}</div>
+        <div class="ebook-author">{{ ebook?.author }}</div>
+          <div class="ebook-year">Published: {{ ebook?.publicationYear}}</div>
+          <div class="ebook-price">€{{ ebook?.price }}</div>
+        <button [routerLink]="['/buy-ebook', ebook?.ebookId]">Buy</button>
+    </div>
+      
