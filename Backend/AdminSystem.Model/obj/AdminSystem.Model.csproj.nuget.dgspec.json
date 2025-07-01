@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj": {}
+    "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj": {
+    "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj",
+        "projectUniqueName": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj",
         "projectName": "AdminSystem.Model",
-        "projectPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj",
-        "packagesPath": "C:\\Users\\tiakh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\obj\\",
+        "projectPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj",
+        "packagesPath": "/Users/jakobhren/.nuget/packages/",
+        "outputPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiakh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jakobhren/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

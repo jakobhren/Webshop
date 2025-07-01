@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\Backend.Tests\\Backend.Tests.csproj": {}
+    "/Users/jakobhren/Documents/GitHub/Webshop/Backend/Backend.Tests/Backend.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.API\\AdminSystem.API.csproj": {
+    "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/AdminSystem.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.API\\AdminSystem.API.csproj",
+        "projectUniqueName": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/AdminSystem.API.csproj",
         "projectName": "AdminSystem.API",
-        "projectPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.API\\AdminSystem.API.csproj",
-        "packagesPath": "C:\\Users\\tiakh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.API\\obj\\",
+        "projectPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/AdminSystem.API.csproj",
+        "packagesPath": "/Users/jakobhren/.nuget/packages/",
+        "outputPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiakh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jakobhren/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj": {
-                "projectPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj"
+              "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj": {
+                "projectPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj"
               }
             }
           }
@@ -79,21 +79,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj": {
+    "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj",
+        "projectUniqueName": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj",
         "projectName": "AdminSystem.Model",
-        "projectPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\AdminSystem.Model.csproj",
-        "packagesPath": "C:\\Users\\tiakh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.Model\\obj\\",
+        "projectPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/AdminSystem.Model.csproj",
+        "packagesPath": "/Users/jakobhren/.nuget/packages/",
+        "outputPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiakh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jakobhren/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -151,21 +151,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\Backend.Tests\\Backend.Tests.csproj": {
+    "/Users/jakobhren/Documents/GitHub/Webshop/Backend/Backend.Tests/Backend.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\Backend.Tests\\Backend.Tests.csproj",
+        "projectUniqueName": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/Backend.Tests/Backend.Tests.csproj",
         "projectName": "Backend.Tests",
-        "projectPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\Backend.Tests\\Backend.Tests.csproj",
-        "packagesPath": "C:\\Users\\tiakh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\Backend.Tests\\obj\\",
+        "projectPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/Backend.Tests/Backend.Tests.csproj",
+        "packagesPath": "/Users/jakobhren/.nuget/packages/",
+        "outputPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/Backend.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiakh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jakobhren/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -177,8 +177,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.API\\AdminSystem.API.csproj": {
-                "projectPath": "C:\\Users\\tiakh\\Desktop\\CBS_2\\webshop\\Backend\\AdminSystem.API\\AdminSystem.API.csproj"
+              "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/AdminSystem.API.csproj": {
+                "projectPath": "/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/AdminSystem.API.csproj"
               }
             }
           }
@@ -241,7 +241,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
