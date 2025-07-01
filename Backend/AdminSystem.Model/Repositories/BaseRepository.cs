@@ -21,11 +21,11 @@ public class BaseRepository
     cmd.Connection = conn;
     return cmd.ExecuteReader(CommandBehavior.CloseConnection);
     }
-    protected bool InsertData(NpgsqlConnection conn, NpgsqlCommand cmd)
+    protected int InsertData(NpgsqlConnection conn, NpgsqlCommand cmd)
     {
     conn.Open();
-    cmd.ExecuteNonQuery();
-    return true;
+    var result = cmd.ExecuteScalar();
+    return result != null ? Convert.ToInt32(result) : -1;
     }
     protected bool UpdateData(NpgsqlConnection conn, NpgsqlCommand cmd)
     {

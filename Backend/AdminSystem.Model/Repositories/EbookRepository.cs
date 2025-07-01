@@ -84,7 +84,7 @@ namespace AdminSystem.Model.Repositories
         }
 
         // Method to insert a new Ebook
-        public bool InsertEbook(Ebook ebook)
+        public int InsertEbook(Ebook ebook)
         {
             NpgsqlConnection dbConn = null;
             try
@@ -106,7 +106,7 @@ namespace AdminSystem.Model.Repositories
                 // Get the inserted ebook ID
                 int insertedId = InsertData(dbConn, cmd); // Assuming InsertData returns the inserted ID
 
-                return insertedId > 0; // Returns true if a valid ID is returned (i.e., insertion was successful)
+                return insertedId; // Returns true if a valid ID is returned (i.e., insertion was successful)
             }
             finally
             {

@@ -44,14 +44,29 @@ public class CustomerRepository : BaseRepository
 
     public int InsertCustomer(Customer customer)
     {
-        using var conn = new NpgsqlConnection(_connectionString);
-        using var cmd = new NpgsqlCommand("INSERT INTO customers (name, email, password) VALUES (@name, @email, @password) RETURNING customerid", conn);
-        cmd.Parameters.AddWithValue("@name", customer.Name);
-        cmd.Parameters.AddWithValue("@email", customer.Email);
-        cmd.Parameters.AddWithValue("@password", customer.Password);
-        
-        return (int)InsertData(conn, cmd); // Use inherited InsertData method
+        NpgsqlConnection dbConn = null;
+        try
+        {
+            dbConn = new NpgsqlConnection(_connectionString);
+            var cmd = dbConn.CreateCommand();
+            cmd.CommandText = @"
+                INSERT INTO customers (name, email, password)
+                VALUES (@name, @email, @password) RETURNING customerid";
+
+            cmd.Parameters.AddWithValue("@name", NpgsqlDbType.Text, customer.Name);
+            cmd.Parameters.AddWithValue("@email", NpgsqlDbType.Text, customer.Email);
+            cmd.Parameters.AddWithValue("@password", NpgsqlDbType.Text, customer.Password);
+
+            int insertedId = InsertData(dbConn, cmd); // Assuming InsertData returns inserted ID
+
+            return insertedId;
+        }
+        finally
+        {
+            dbConn?.Close();
+        }
     }
+
 
     public bool UpdateCustomer(Customer customer)
     {

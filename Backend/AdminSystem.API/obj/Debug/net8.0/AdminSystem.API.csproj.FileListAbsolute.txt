@@ -58,3 +58,11 @@ C:/Users/tiakh/Desktop/CBS_2/webshop/Backend/AdminSystem.API/obj/Debug/net8.0/re
 /Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.dll
 /Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/refint/AdminSystem.API.dll
 /Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.pdb
+/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.csproj.AssemblyReference.cache
+/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.AssemblyInfoInputs.cache
+/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.AssemblyInfo.cs
+/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.csproj.CoreCompileInputs.cache
+/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/jakobhren/Documents/GitHub/Webshop/Backend/AdminSystem.API/obj/Debug/net8.0/AdminSystem.API.sourcelink.json

@@ -70,7 +70,7 @@ namespace AdminSystem.Model.Repositories
             }
         }
 
-        public bool InsertCategory(Category category)
+        public int InsertCategory(Category category)
         {
             NpgsqlConnection dbConn = null;
             try
@@ -85,7 +85,7 @@ namespace AdminSystem.Model.Repositories
 
                 int insertedId = InsertData(dbConn, cmd); // Assuming InsertData returns the inserted category ID
 
-                return insertedId > 0; // Returns true if the category was successfully inserted
+                return insertedId; // Returns true if the category was successfully inserted
             }
             finally
             {
